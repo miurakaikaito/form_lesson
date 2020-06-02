@@ -1,6 +1,6 @@
 @charset "utf-8";
-.main {
-  padding: 32px;
+.wrapper {
+  padding: 32px 0;
   width: 100%;
   background-color: #f2f6f7;
 }
@@ -10,7 +10,7 @@ margin: auto;
 width: 640px;
 }
 
-.main-content {
+.main {
   padding: 48px 68px;
   background-color: #ffffff;
   border-radius: 4px;
