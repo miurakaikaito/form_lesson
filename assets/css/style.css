@@ -6,8 +6,8 @@
 }
 
 .inner {
-margin: auto;
-width: 640px;
+  margin: auto;
+  width: 640px;
 }
 
 .main {
@@ -30,10 +30,6 @@ width: 640px;
   margin-bottom: 8px;
 }
 
-.facebook {
-  width: 50%;
-}
-
 .button {
   box-sizing: border-box;
   text-align: center;
@@ -48,6 +44,10 @@ width: 640px;
 
 .full-width {
   width: 100%;
+}
+
+.harf-width {
+  width: 50%;
 }
 
 .none {
@@ -66,7 +66,6 @@ width: 640px;
 }
 
 .google {
-  width: 50%;
   margin-left: 8px;
 }
 
@@ -113,7 +112,7 @@ width: 640px;
 }
 
 .row {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .name {
@@ -121,7 +120,6 @@ width: 640px;
 }
 
 .name-box {
-  width: 50%;
   margin-left: 16px;
 }
 
@@ -213,10 +211,6 @@ width: 640px;
   background-color: #01bfbd;
 }
 
-.origin {
-  width: 50%;
-}
-
 .serect-area {
   position: relative;
 }
@@ -279,13 +273,13 @@ width: 640px;
 
 .submit-btn {
   padding: 13px;
-  background-color: #04d0ce;
+  background-color: #01bfbd;
   color: #ffffff;
   width: 100%;
 }
 
 .submit-btn:hover {
-  background-color: #02bbb9;
+  background-color: #039c9b;
   transition: 0.3s;
 }
 
@@ -299,7 +293,7 @@ width: 640px;
 }
 
 .link-color:hover {
-  color: #03bdbb;
+  color: #00c5c3;
   transition: 0.3s;
 }
 
