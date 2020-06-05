@@ -12,55 +12,55 @@
   <body>
     <div class="wrapper">
       <div class="inner">
-        <main class="main">
-          <h1 class="form-title">アカウント作成</h1>
-          <div class="sns">
+        <main class="main back-white">
+          <h1 class="form-title center">アカウント作成</h1>
+          <div class="sns flex">
             <div class="facebook harf-width">
-              <a href="" class="button facebook-btn full-width none">Facebookでスタート</a>
+              <a href="#" class="button facebook-btn full-width none">Facebookでスタート</a>
             </div>
             <div class="google harf-width">
-              <a href="" class="button google-btn full-width none">Googleでスタート</a>
+              <a href="#" class="button google-btn full-width none back-white">Googleでスタート</a>
             </div>
           </div>
-          <p class="text timeline">タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。</p>
-          <div class="device">
-            <p class="text">アカウント情報</p>
+          <p class="text timeline center">タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。</p>
+          <div class="device center">
+            <p class="text device-text back-white">アカウント情報</p>
           </div>
           <form action="#" method="POST" class="form-content">
-            <div class="row name">
+            <div class="row name flex">
               <div class="name-box harf-width">
                 <p class="label-text">名字
                   <span class="mark">※</span>
                 </p>
-                <input type="text" name="last-name" class="input-init input-area">
+                <input type="text" name="fast-name" class="input-init input-area">
               </div>
               <div class="name-box harf-width">
                 <p class="label-text">名前
                   <span class="mark">※</span>
                 </p>
-                <input type="text" name="fast-name" class="input-init input-area">
+                <input type="text" name="last-name" class="input-init input-area">
               </div>
             </div>
             <div class="row gender">
               <p class="label-text">性別</p>
-              <div class="gender-contents">
+              <div class="gender-contents flex">
                 <label class="gender-content">
-                  <input type="radio" name="gender" value="male" class="gender-input">
+                  <input type="radio" name="gender" value="male" class="gender-input none">
                   <span class="gender-text">男性</span>
                 </label>
                 <label class="gender-content">
-                  <input type="radio" name="gender" value="male" class="gender-input">
+                  <input type="radio" name="gender" value="male" class="gender-input none">
                   <span class="gender-text">女性</span>
                 </label>
                 <label class="gender-content">
-                  <input type="radio" name="gender" value="male" class="gender-input">
+                  <input type="radio" name="gender" value="male" class="gender-input none">
                   <span class="gender-text">その他</span>
                 </label>
               </div>
             </div>
             <div class="row origin harf-width">
               <p class="label-text">出身</p>
-              <div class="serect-area">
+              <div class="select-area">
                 <select name="origin" id="origin" class="input-init input-area">
                   <option value="東京">東京</option>
                   <option value="千葉">千葉</option>
@@ -94,32 +94,40 @@
             <div class="row course">
               <p class="label-text">希望コース</p>
               <div class="course-option">
-                <input type="checkbox" name="course" value="frontend" id="frontend" class="course-box">
+                <input type="checkbox" name="course" value="frontend" id="frontend" class="course-box none">
                 <label class="course-option-text" for="frontend">フロントエンド</label>
               </div>
               <div class="course-option">
-                <input type="checkbox" name="course" value="backend" id="backend" class="course-box">
+                <input type="checkbox" name="course" value="backend" id="backend" class="course-box none">
                 <label class="course-option-text" for="backend">バックエンド</label>
               </div>
               <div class="course-option">
-                <input type="checkbox" name="course" value="app" id="app" class="course-box">
+                <input type="checkbox" name="course" value="app" id="app" class="course-box none">
                 <label class="course-option-text" for="app">アプリ</label>
               </div>
             </div>
             <div class="row remarks">
               <p class="label-text">備考</p>
-              <textarea name="remarks" class="input-init input-area" placeholder="何かあればご記入ください"></textarea>
+              <textarea name="remarks" class="input-init input-area remarks-height" placeholder="何かあればご記入ください"></textarea>
             </div>
             <div class="row">
               <input type="button" value="アカウント作成" class="input-init button submit-btn">
             </div>
-            <p class="form-text">アカウントを作成することにより、<a href="利用規約" class="link-color">利用規約</a>と<a href="プライバシーポリシー" class="link-color">プライバシーポリシー</a>に同意するものとします。</p>
+            <div class="row">
+              <p class="form-text">アカウントを作成することにより、
+                <a href="#" class="link-color">利用規約</a>
+                と
+                <a href="#" class="link-color">プライバシーポリシー</a>
+                に同意するものとします。
+              </p>
           </form>
         </main>
-        <div class="footer">
-          <p class="footer-text">すでにアカウントをお持ちですか<a href="ログイン" class="link-color underline">ログイン</a></p>
-          <a href="認証メールが届きませんか？" class="link-color footer-text underline">認証メールが届きませんか？</a>
-        </div>
+        <footer class="footer center">
+          <p class="footer-texts">すでにアカウントをお持ちですか
+            <a href="#" class="link-color underline">ログイン</a>
+          </p>
+          <a href="#" class="link-color footer-text underline">認証メールが届きませんか？</a>
+        </footer>
       </div>
     </div>
   </body>
