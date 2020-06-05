@@ -74,7 +74,7 @@ a {
 }
 
 .main {
-  padding: 48px 68px;
+  padding: 48px 64px;
   border-radius: 4px;
   box-shadow: 0 0 4px rgba(0, 0, 0, .18);
   box-sizing: border-box;
@@ -225,8 +225,8 @@ a {
   content: "";
   display: inline-block;
   position: absolute;
-  left: 235px;
-  top: 45%;
+  right: 10px;
+  top: 50%;
   transform: rotate(45deg);
   height: 5px;
   width: 5px;
@@ -282,7 +282,7 @@ a {
 .submit-btn {
   background-color: #01bfbd;
   color: #fff;
-  width: 100%;
+  border: none;
 }
 
 .submit-btn:hover {
