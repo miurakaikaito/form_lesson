@@ -32,13 +32,13 @@
                 <p class="label-text">名字
                   <span class="mark">※</span>
                 </p>
-                <input type="text" name="fast-name" class="input-init input-area">
+                <input type="text" name="lastname" class="input-init input-area" required>
               </div>
               <div class="name-box harf-width">
                 <p class="label-text">名前
                   <span class="mark">※</span>
                 </p>
-                <input type="text" name="last-name" class="input-init input-area">
+                <input type="text" name="firstname" class="input-init input-area" required>
               </div>
             </div>
             <div class="row gender">
@@ -73,7 +73,7 @@
               <p class="label-text">Eメール
                 <span class="mark">※</span>
               </p>
-              <input type="email" name="email" class="input-init input-area" placeholder="ex) hoge@example.com">
+              <input type="email" name="email" class="input-init input-area" placeholder="ex) hoge@example.com" required>
             </div>
             <div class="row tell">
               <p class="label-text">電話番号</p>
@@ -83,13 +83,13 @@
               <p class="label-text">パスワード
                 <span class="mark">※</span>
               </p>
-              <input type="password" name="password" id="password" class="input-init input-area">
+              <input type="password" name="password" id="password" class="input-init input-area" required>
             </div>
             <div class="row password">
               <p class="label-text">パスワード(確認用)
                 <span class="mark">※</span>
               </p>
-              <input type="password" name="password" id="password" class="input-init input-area">
+              <input type="password" name="password-confirm" id="password-confirm" class="input-init input-area" required>
             </div>
             <div class="row course">
               <p class="label-text">希望コース</p>
@@ -111,7 +111,7 @@
               <textarea name="remarks" class="input-init input-area remarks-height" placeholder="何かあればご記入ください"></textarea>
             </div>
             <div class="row">
-              <input type="button" value="アカウント作成" class="input-init button submit-btn full-width">
+              <input type="submit" value="アカウント作成" class="input-init button submit-btn full-width">
             </div>
             <div class="row">
               <p class="form-text">アカウントを作成することにより、<a href="#" class="link-color">利用規約</a>と<a href="#" class="link-color">プライバシーポリシー</a>に同意するものとします。</p>
