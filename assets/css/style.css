@@ -184,13 +184,13 @@ a {
   margin-left: 0;
 }
 
-.gender-content .gender-text {
+.gender-text {
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
 }
 
-.gender-content .gender-text::before {
+.gender-text::before {
   content: '';
   position: absolute;
   left: 0;
@@ -313,7 +313,7 @@ a {
 
 .footer-text {
   font-size: 12px;
-  margin-top: 8px;
+  margin: 8px 0;
   line-height: 16px;
   display: inline-block;
 }
